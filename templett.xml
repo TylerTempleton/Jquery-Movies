@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templett>
+
+	<title> Assignment 2:Tyler Templeton</title>
+
+	<Student>
+		<name>Tyler Templeton</name>
+		<program>System Analyist</program>
+		<StudentNumber>991226793 </StudentNumber>
+	</Student>
+
+
+	-<movies>
+
+	-<movie>
+
+			<name image="https://images-na.ssl-images-amazon.com/images/M/MV5BNzlhYjEzOGItN2MwNS00ODRiLWE5OTItYThiNmJlMTdmMzgxXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX645_CR0,0,645,999_AL_.jpg">Big Trouble in Little China</name>
+			<link> http://www.imdb.com/title/tt0090728/ </link>
+			<plot> Kurt Russell plays hard-boiled truck driver Jack Burton, who gets caught in a bizarre conflict within, and underneath, San Francisco's Chinatown. An ancient Chinese prince and Chinatown crime lord has kidnapped a beautiful green-eyed woman, who is the fiancee to Jack's best friend. Jack must help his friend rescue the girl before the evil Lo Pan uses her to break the ancient curse that keeps him a fleshless and immortal spirit.</plot>
+
+			<casting> 
+				<actor>Kurt Russell</actor>
+				<actor>Kim Cattrall</actor>
+				<actor>Dennis Dun</actor>
+			</casting>
+
+			<reviews>
+				<review>This movie occupied most my junior high years. Action, suspense, cheesy diaologue, and martial arts galore. What more could you ask for from a b-movie that is clearly a b-movie? Carpenter and the cast and crew must have had a blast on this film because I can't think of a single movie that combines some of my favorite things about movies: Action, comedy, violence, martial arts, and a small tour bus driver named Egg who also knows a little magic. Magic indeed. This is movie magic. Agree or disagree, you can't deny that Carpenter succeeded on all levels when he made this movie. Saturday matineeish? Yes. B-movie cheese? Yes. Pure movie-going fun? Absolutely. Watch and enjoy.</review>
+				<review>What can one say. The movie plays like one of those great old comic books you read as a kid. The dialogue is so cartoonish that you expect to see balloons appear above the characters heads. The acting is excellent, with everyone taking a tongue in cheek approach and obviously having a good time making the film. Some of the best fight scenes in recent memory, with everyone "kung-fu fighting" at the drop of a hat. Kurt Russel is a hoot as the more than slightly dumb macho hero. Cartoon violence minus the gore, humourous special effects, evil magicians, green eyed damsels in distress, even a monster or two. A great film for a night of light movies! See it if you get a chance!</review>
+				<review>John Carpenter's career peaked with Big Trouble in Little China -- and what a peak it is. No other director/writer has attempted to create what Carpenter did in the 80's. Why this took so long to come to DVD is beyond me. This movie makes the best mix of cavalier anti-heroes, humorous villains, dark magic overtones, and good old fashioned fight scenes (done up as a mix of kung fu with old west shoot-em-up).Those who don't like this movie don't get it's inherent self-deprecatory theme. This movie is all about fun. If you don't get it, see a doctor about your broken funny bone!</review>
+			</reviews>
+
+		</movie>
+
+
+	-<movie>
+
+			<name image="https://images-na.ssl-images-amazon.com/images/M/MV5BMjI1MjkzMjczMV5BMl5BanBnXkFtZTgwNDk4NjYyMTI@._V1_SY1000_CR0,0,676,1000_AL_.jpg">Logan</name>
+			<link>http://www.imdb.com/title/tt3315342/</link>
+			<plot> In the near future, a weary Logan cares for an ailing Professor X somewhere on the Mexican border. However, Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.</plot>
+
+			<casting> 
+				<actor>Hugh Jackman</actor>
+				<actor>Patrick Stewart</actor>
+				<actor>Dafne Keen</actor>
+			</casting>
+
+			<reviews>
+				<review>Logan is easily the best Marvel movie ever. I had a chance to see the premiere. The movie is just over 2 hours. The first 45 minutes and the last 30 minutes are the best part of this film. I have never seen a superhero movie like this. It's brutal to its core. I have a request to Marvel and Fox. Please retire Wolverine character because no one could portray it with this much perfection as Hugh Jackman. This is easily my second favorite movie of this genre. Congrats for Fox to reviving their X-men universe after the Apocalypse mess. X-23 actress is gonna be a big star in the future. Oh man, she's awesome. And this is Patrick Stewart's best performance till date. The surprise villain character was also great, unlike other Marvel movies. Hope MCU will learn from this movie. DCEU also have a lesson or two to learn from Logan about making a dark and gritty film. Overall, I would rate this movie as the second best movie ever in its genre with almost no negatives. The only difference between Logan and Dark Knight's quality is you can't get the epic feeling with Logan </review>
+				<review>Holy Cow! We've finally got the Wolverine movie we've all been waiting for and then some! Mr. Mangold has nailed the character and the action, and Hugh Jackman is truly a part of a Wolverine movie that has showcased the true character that the fans had hoped to see full on. Yes, we've seen superb runs and flashes but nothing this deep or this epic.How could any movie fan in general not just adore this film? It brought elements of a lot of great genres. Logan has to be considered genre-defining. The characters, action and story were all beyond outstanding in this movie. We are taken for a ride and can relate to Logan once again. The acting is superb and the dialogue is perfect for the level of each character. Every single character feels believable. You follow the story through Logan's eyes and what a ride it turns out to be. This movie is emotional and moving in every single way that matters and is unique and is as far away from anything X-Men we've seen before. In this case, that's a very good thing. The fight scenes and pace are superb. I honestly could see Oscar nominations here on multiple fronts.This movie is sophisticated and delivers a grand, tragic story. The action fits in nice but serves the story first. Unlike other "dark" films, the tone is perfect and fits the character. The supporting characters are utilized in a comprehensive and cohesive manner and are wonderful in and of themselves. I loved everything about this movie and they left it as if this was the perfect end to Hugh's run.</review>
+				<review>we finally get the Wolverine we have been asking for, for the past 15 years and it's his last time. Well i guess he couldn't have ended it in any better way as a last farewell to the fans and his signature role. Not only that but it looks like this one blows all the other superhero movies out of the water and i hope you Weebs go pay for your ticket to see this as well instead of watching a cam version online so we send the message that we want more of these kind of movies.</review>
+			</reviews>
+
+		</movie>
+
+
+	-<movie>
+
+			<name image="https://images-na.ssl-images-amazon.com/images/M/MV5BNTMwZGU3MGUtZWE0Ni00YzExLWIyY2MtMmNmMDlmYTdmNzFkXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_.jpg">Tommy Boy</name>
+			<link>http://www.imdb.com/title/tt0114694</link>
+			<plot>An incompetent, immature, and dimwitted heir to an auto parts factory must save the business to keep it out of the hands of his new, con-artist relatives and big business.</plot>
+
+			<casting> 
+				<actor>Chris Farley</actor>
+				<actor>David Spade</actor>
+				<actor>Dan Aykroyd</actor>
+			</casting>
+			<reviews>
+				<review>This is a comedy in which Thomas 'Tommy' Callahan III (Chris Farley) who is a slow-witted, clumsy guy who recently graduated college after attending for seven years. His father, Thomas 'Big Tom' Callahan II (Brian Dennehy), owns an auto parts factory in Ohio. When Tommy arrives back home, he finds he has a position at the factory waiting for him. His dad also introduces Tommy to the new brake pad division of the factory and to Tommy's soon-to-be stepmother, Beverly Barish-Burns (Bo Derek), and her supposed son Paul Barish (Rob Lowe). But when Big Tom dies, the factory threatens to go under unless the new brake pads are to be sold. Therefore, Tommy must go on the road to sell them, along with the assistance of Richard Hayden (David Spade), Big Tom's right-hand man. Beverly and Paul who are con artists and also husband and wife who try to con Tommy and his family out of the company's money. Tommy and Richard travel all over the Midwestern United States trying to sell a half a million brake pads. If they don't sell the half a million brake pads, the company will be sold to Ray Zalinsky (Dan Aykroyd). This movie is full of great laughs and everybody will enjoy it. If Chris Farley was alive today, I bet there would be many more great and funny movies like this one. There are plenty of great passages that I hear everyday from this movie. I have seen it so many times I have lost count. I pretty much know it by heart. It is that great of a movie. Everybody needs to see it.</review>
+				<review>This film should go down as a slapstick comedy classic. Farley's untimely death should be lamented, he was a comic god. This movie is unashamedly stupid, but if you'll just relax it's also one of the funniest films you'll ever see.Ok, it has a paper-thin plot, but it does contain some cinematic firsts: a moose breaking its way out of a classic car; Rob Lowe being electrocuted through his pecker; a fat man in a little coat.See this film. Twice</review>
+				<review>This movie has everything! It has a good storyline, good acting, great scenery, adventure and some brilliant gags! Chris Farley plays Tommy Callaghanhe mega successful company 'Callaghan Auto Parts' has to go on the road to stop the company going under after Big Tom dies. The trouble is that Tommy knows nothing about break pads and needs the help of Callaghan Auto Parts worker Richard (David Spade). From the moment the two dorks hit the road, the movie is just so much fun. If you love slapstick with a great storyline you'll love this because the gags keep coming thick and fast and the movie will just make you laugh out loud! It was so sad about Farley's untimely death in 1997, but a credit to his genius is 'Tommy Boy'. Get it, chill out and enjoy this brilliant slapstick!</review>
+			</reviews>
+		</movie>
+
+	</movies>
+
+
+
+</templett>

@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<title>Assignment 2</title>
+				<link rel="stylesheet" href="themes/Templett.min.css" />
+				<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+				
+				<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+				<script src="http://code.jquery.com/jquery-1.11.1.min.js"/>
+				<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"/>
+				<script src="js/jquery.js"/>
+				<script src="js/jquery.mobile.js"/>
+			</head>
+			<body>
+				<div data-role="page" data-theme="a">
+					<div data-role="header" data-position="inline">
+						<h1>It Worked!</h1>
+					</div>
+					<div data-role="content" data-theme="a">
+						<script>	
+							$(document).ready(function(){
+
+							$("#moviedata").append("<ul/>") 
+							$.ajax({
+								type: "GET" ,
+								url: "templett.xml" ,
+								dataType: "xml" ,
+								success: function(xml) {
+
+							$(xml).find('movie').each(function(){
+							var mName = $(this).find('name').text(); 
+							var mPic = $(this).find('name').attr('image');
+							var mImage = $('<img />').attr("src", mPic).width(300).height(500);
+							$("<a/>")
+							.html(mName +'<br/>')
+							.attr("href" , mName+".html")
+							.appendTo("#moviedata ul")
+							console.log(mName);
+
+							});
+
+
+							$(xml).find('title').each(function(){ 
+							var wName = $(this).text();
+							console.log(wName);
+							$("title").html(wName);
+							$("h1").html(wName);
+
+
+
+							});
+
+
+							$(xml).find('Student').each(function(){ 
+							var sName = $(this).find('name').text();
+							var sProgram = $(this).find('program').text();
+							var sNum = $(this).find('StudentNumber').text();
+							console.log(sName);
+							console.log(sProgram);
+							console.log(sNum);
+							$("footer").html(sName + "     "+sProgram + "     "+ sNum);
+
+
+
+							});
+
+
+
+							},
+							error: function() {
+
+							alert("An error occurred while processing XML file.");
+
+							}
+
+							});
+							});
+						</script>
+						<div id = "moviedata" >
+							<a href="http://themeroller.jquerymobile.com/?ver=1.4.5&style_id=20170331-11">Theme Roller Link</a>
+						</div>
+
+					</div>
+
+
+					<div data-role="footer" data-position="inline" class="ui-bar" data-theme="a">
+
+						<footer/>
+
+					</div>
+				</div>
+			</body>
+		</html>

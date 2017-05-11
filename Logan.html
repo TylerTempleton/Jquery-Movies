@@ -1,0 +1,116 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment 2</title>
+	<link rel="stylesheet" href="themes/Templett.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="a">
+		<div data-role="header" data-position="inline">
+			<h1>It Worked!</h1>
+		</div>
+		<div data-role="content" data-theme="a">
+
+		
+<script>	
+							$(document).ready(function(){
+
+							$("#moviedata").append("<ul/>") 
+							$.ajax({
+							type: "GET" ,
+							url: "templett.xml" ,
+							dataType: "xml" ,
+							success: function(xml) {
+							
+							$(xml).find('movie:contains("Logan")').each(function(){
+							var mName = $(this).find('name').text(); 
+							var mPic = $(this).find('name').attr('image');
+							var mImage = $('<img />').attr("src", mPic).width(300).height(500);
+							var mPlot= $(this).find('plot').text();
+							
+							console.log(mName);
+							
+							$("<p></p>").html(mName+ "</br>").appendTo("#moviedata");
+							mImage.appendTo("#moviedata");
+							$("<p></p>").html("<h2>Plot</h2></br>" +mPlot).appendTo("#moviedata");
+							
+							console.log(mPlot);
+							$(xml).find('casting:contains("Hugh Jackman")').each(function(){
+							var mCastings =$(this).find('actor').text();
+							$("<p></p>").html("<h2>Castings</h2></br><li>" +mCastings+ "</li></br>").appendTo("#moviedata");
+							
+							console.log(mCastings);
+							});
+							
+							
+							var mReview =$(this).find('reviews').text();
+							
+							
+							$("<p></p>").html("<h2>Reviews</h2></br><li>" +mReview+ "</li></br>").appendTo("#moviedata");
+							console.log(mReview);
+							
+							
+							
+							});
+							
+							
+							$(xml).find('Student').each(function(){ 
+							var sName = $(this).find('name').text();
+							var sProgram = $(this).find('program').text();
+							var sNum = $(this).find('StudentNumber').text();
+							console.log(sName);
+							console.log(sProgram);
+							console.log(sNum);
+							$("footer").html(sName + "     "+sProgram + "     "+ sNum);
+
+
+
+							});
+							$(xml).find('title').each(function(){ 
+							var wName = $(this).text();
+							console.log(wName);
+							$("title").html(wName);
+							$("h1").html(wName);
+
+
+
+							});
+
+
+
+							},
+							error: function() {
+
+							alert("An error occurred while processing XML file.");
+
+							}
+
+							});
+							});
+					</script>
+					
+					<div id="moviedata">
+					
+					</div>
+					
+					</div>
+					<div data-role="controlgroup" data-type="horizontal">
+					<a id="homebutton" href = 'index.html'class='ui-btn'>Home<a/>
+						<a id="imdb" href=" http://www.imdb.com/title/tt3315342/" class="ui-btn">IMDB</a>
+						<a id="theater" href="http://www.fandango.com/logan2017_196901/movietimes" class="ui-btn">Theater</a>
+
+					</div>
+					<div data-role="footer" data-position="inline" class="ui-bar" data-theme="a">
+
+						<footer/>
+
+					</div>
+
+					
+</body>
+</html>
